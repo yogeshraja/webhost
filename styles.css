@@ -1,0 +1,124 @@
+
+.loginContainer{
+    margin: auto;
+    margin-top:1% ;
+    background-color: rgb(243, 250, 249);
+    width: 400px;
+    height: 400px;
+}
+img.logo_gif{
+    height: 10%;
+    width: 10%;
+}
+.center{
+    margin:auto;
+}
+.EmailID{
+    margin-top: 80px !important;
+    margin-left: 60px !important;
+}
+.Password{
+    margin-top: 0px !important;
+    margin-left: 60px !important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){    
+    border-bottom: 2px solid rgb(130, 144, 224) !important;
+    box-shadow: 0 1px 0 0 rgb(44, 136, 211) !important;
+}
+
+.input-field .prefix.active{
+    color:rgb(114, 88, 228) !important;
+}
+label.active{
+    color: rgb(13, 16, 230) !important;
+}
+input[type=password]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 2px solid rgb(130, 144, 224) !important;
+    box-shadow: 0 1px 0 0 rgb(77, 219, 255) !important;
+}
+.heading{
+    margin-left: 170px;
+    color:rgb(32, 63, 32);
+    font-family: 'Playfair Display SC', serif;
+}
+
+.btn{
+    /* color: rgb(32, 63, 32) !important; */
+    display: inline;
+    margin: 0px,10px;
+    background-color: rgb(86, 88, 233);
+    border-radius: 12px;
+    margin:auto;
+}
+
+.fPassword{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 400px;
+}
+
+.btn:hover{
+    background-color:  rgb(126, 235, 126);
+}
+
+#search_nav{
+    margin: auto;
+    margin-top:1% ;
+    width: 70%;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(124, 140, 155);
+    opacity: 100%;
+}
+#homeContainer{
+    background-color: rgb(79, 136, 241);
+    width: 70%;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 50px;
+}
+.nav_strip{
+    background-color: rgb(207, 167, 119);
+    border-radius: 10px;
+    width: 200px;
+}
+.nav_elements{
+    display: flex;
+    border-bottom: 2px solid peachpuff;
+    flex:1 1 auto;
+}
+.nav_elements i{
+    vertical-align: middle;
+}
+.nav_elements a {
+    color: rgb(18, 137, 141);
+}
+.nav_elements a i{
+    color: rgb(10, 14, 252);
+}
+.nav_elements:hover{
+    background-color: rgb(243, 72, 95);
+    border-radius: 10px;
+}
+.util_strip{
+   background-color: rgb(207, 167, 119);
+   border-radius: 10px;
+   width: 150px;
+   justify-content: space-evenly;
+}
+.util_elements:hover{
+    background-color: rgb(243, 72, 95);
+    border-radius: 10px;
+}
+.util_elements i{
+    vertical-align: middle;
+}
+.util_elements{
+    display: flex;
+    justify-content: center;
+    flex:1 1 100px;
+}
+.util_elements a i{
+    font-size: 4em; color: rgb(32, 78, 204);
+}

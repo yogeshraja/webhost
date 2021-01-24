@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <title>inbox</title>
+      <script src="https://kit.fontawesome.com/4a39ce030f.js" crossorigin="anonymous"></script>
+      <!-- Calendar -->
+      <!-- <link rel="stylesheet" href="dist/tui-calendar.css"> -->
+
+</head>
+
+<body>
+      <div
+            style="width: 100%; background-color: rgb(2, 35, 63); border-bottom: 2px solid rgb(125, 195, 255); display: block;justify-content: space-around;">
+            <!-- <a href="home.html" style="width: 15%;margin: 0;"><img id="logo_gif" src="./Resources/emailo-gif.gif"
+                        alt="Home Page" style="height:60%; width:55%;margin-top:5%;margin-right: 0; flex-grow: 1;"></a> -->
+
+            <nav id="search_nav" style="margin-bottom:5px;margin-top: 5px;">
+                  <div class="nav-wrapper" style="background-color: rgb(111, 127, 148);border-radius: 10px;">
+                        <form>
+                              <div class="input-field">
+                                    <input id="search" type="search" required
+                                          style="color: rgb(36, 1, 36);border-radius: 10px;margin-top:5px ;">
+                                    <label class="label-icon" for="search" style="color: rgb(65, 138, 43);"><i
+                                                class="material-icons">search</i></label>
+                                    <i class="material-icons">close</i>
+                              </div>
+                        </form>
+                  </div>
+            </nav>
+      </div>
+
+      <div style="display:flex;flex-direction: row; width: 100%;justify-content: space-around;margin-top: 1%;">
+            <div class="nav_stip" style="background-color: rgb(207, 167, 119); border-radius: 10px;width: 200px;">
+                  <div class="nav_elements"><a href="#!" style="font-size: large;"><i class="small material-icons"
+                                    id="inbox">inbox</i>Inbox</a></div>
+
+                  <div class="nav_elements"><a href="#!" style="font-size: large;"><i class="small material-icons"
+                                    id="draft">drafts</i>Drafts</a></div>
+
+                  <div class="nav_elements"><a href="#!" style="font-size: large;"><i class="small material-icons"
+                                    id="sent">send</i>Sent</a></div>
+
+                  <div class="nav_elements"><a href="#!" style="font-size: large;"><i class="small material-icons"
+                                    id="starred">star</i>Starred</a></div>
+
+                  <div class="nav_elements"><a href="#!" style="font-size: large;"><i class="small material-icons"
+                                    id="Trash">delete</i>Trash</a></div>
+            </div>
+            <div id="homeContainer" class="col s12 m2 z-depth-3">
+            </div>
+            <div class="util_strip">
+                  <div id="calendar" style="height: 30%;"></div>
+                  <!-- <script>
+                                    var calendar = new Calendar('#calendar', {
+            
+                                                defaultView: 'week',
+                                                taskView: true,
+                                                scheduleView: true,
+                                          });
+                              </script> -->
+                  <div class="util_elements"><a href="#!" style="font-size: large;"><i
+                                    class="fas fa-sticky-note "></i></a> </div>
+
+                  <div class="util_elements"><a href="#!" style="font-size: large;"><i class="fas fa-tasks"></i></a>
+                  </div>
+
+                  <div class="util_elements"><a href="https://www.github.com" style="font-size: large;" target="_blank"><i class="fab fa-github"></i></a>
+                  </div>
+
+            </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="dist/tui-calendar.js"></script>
+</body>
+
+</html>
